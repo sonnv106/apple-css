@@ -67,6 +67,8 @@ nav ul li .icon-nav-bag{
 	margin-bottom: 12px;
 }
 .macbook-air{
+	background-color: #000;
+	padding-top: 44px;
 	width: 100%;
 	height: 636px;
 	background-image: url('https://www.apple.com/v/home/q/images/heroes/macbook-air/macbook_air__knzp0i282eyy_large.jpg');
@@ -78,7 +80,6 @@ nav ul li .icon-nav-bag{
 	padding-top:44px;
 }
 .unit-copy-wrapper{
-	margin-top: 44px;
 	font-family: SF Pro Display,Arial, sans-serif;
 	color: #FFFFFF;
 	display: flex;
@@ -101,16 +102,41 @@ nav ul li .icon-nav-bag{
 }
 .cta-link{
 	margin-top: 12px;
+	display: flex;
+	flex-direction: row;
 }
 .cta-link a{
 	display: flex;
 	font-size: 21px;
 	color: rgb(41, 151, 255);
 	text-decoration: none;
+	padding:0px 10px;
 }
-.cta-link:hover{
+.cta-link a:hover{
+
 	text-decoration: underline;
 }
 .cta-link a i{
 	height: 100%;
+}
+.macbook-pro{
+	width: 100%;
+	height: 636px;
+	background-image: url('https://www.apple.com/v/home/q/images/heroes/macbook-pro-13/macbook_pro_13__koscrc0x6wam_large.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.unit-copy-wrapper p{
+	font-size: 21px;
+	margin:0px;
+	font-weight: 600;
+}
+.iPhone-12-Pro{
+	width: 100%;
+	height: 636px;
+	background-image: url('https://www.apple.com/v/home/q/images/heroes/iphone-12-pro/iphone_12_pro__f7ri3g4x75m6_large.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
